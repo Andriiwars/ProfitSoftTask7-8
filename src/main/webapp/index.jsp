@@ -23,7 +23,7 @@
     </form>
 </div>
 <div class="text-center">
-    <c:if test="${incorrect}">
+    <c:if test="${invalid}">
         Bad login or password
     </c:if>
 </div>
